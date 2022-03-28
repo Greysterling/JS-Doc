@@ -1,0 +1,21 @@
+#nav-bar{
+    position: fixed;
+    left: 0px;
+    width: 200px;
+    top: 0px;
+    height: 100%;
+    
+  }
+  #nav-bar ul{
+    list-style: none;
+    padding: 0;
+  }
+  #main-doc{
+    position: absolute;
+    margin-left: 200px;
+  }
+  @media (max-width: 815px){
+    position: relative;
+    margin-left: 0px;
+    margin-top: 270px;
+  }
